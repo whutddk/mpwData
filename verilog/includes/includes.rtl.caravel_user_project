@@ -1,0 +1,14 @@
+# Caravel user project includes
+-v $(USER_PROJECT_VERILOG)/rtl/user_project_wrapper.v	     
+-v $(USER_PROJECT_VERILOG)/rtl/rift2Wrap.v
+-v $(USER_PROJECT_VERILOG)/rtl/user_defines.v
+-v $(USER_PROJECT_VERILOG)/dv/riscv/plusarg_reader.v
+-v $(USER_PROJECT_VERILOG)/dv/riscv/Rift2Chip.v
+-v $(USER_PROJECT_VERILOG)/dv/riscv/axi_full_slv_sram.v
+-v $(USER_PROJECT_VERILOG)/dv/riscv/gen_dffren.v
+-v $(USER_PROJECT_VERILOG)/dv/riscv/gen_dffr.v
+-v $(USER_PROJECT_VERILOG)/dv/riscv/gen_dpdffren.v
+-v $(USER_PROJECT_VERILOG)/dv/riscv/gen_rsffr.v
+-v $(USER_PROJECT_VERILOG)/dv/riscv/gen_sram.v
+
+ 

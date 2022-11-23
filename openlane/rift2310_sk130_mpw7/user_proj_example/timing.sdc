@@ -1,0 +1,5 @@
+set_false_path -from io_in[28]
+set_false_path -from io_in[34]
+set_false_path -from io_in[35]
+set_false_path -from io_in[36]
+set_false_path -from io_in[37]

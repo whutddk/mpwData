@@ -1,0 +1,25 @@
+{
+    "DESIGN_NAME": "rift2Wrap",
+    "DESIGN_IS_CORE": 0,
+    "VERILOG_FILES": ["dir::../../verilog/rtl/defines.v", "dir::../../verilog/rtl/rift2Wrap.v", "dir::../../verilog/rtl/user_defines.v", "dir::../../verilog/rtl/TapeMain/*.v"],
+    "CLOCK_PERIOD": 50,
+    "CLOCK_PORT": "user_clock2",
+    "CLOCK_NET": "i_Rift2LinkA.clock",
+    "FP_SIZING": "relative",
+    "FP_ASPECT_RATIO": 1.2,
+    "FP_PIN_ORDER_CFG": "dir::pin_order.cfg",
+    "PL_BASIC_PLACEMENT": 0,
+    "VDD_NETS": ["vccd1"],
+    "GND_NETS": ["vssd1"],
+    "DIODE_INSERTION_STRATEGY": 4,
+    "BASE_SDC_FILE": "dir::timing.sdc",
+    "RUN_CVC": 1,
+    "pdk::sky130*": {
+        "FP_CORE_UTIL": 22,
+        "PL_TARGET_DENSITY": 0.23,
+        "RT_MAX_LAYER": "met4",
+        "SYNTH_MAX_FANOUT": 10,
+        "STD_CELL_LIBRARY": "sky130_fd_sc_hd",
+        "CELL_PAD": 6
+    }
+}
