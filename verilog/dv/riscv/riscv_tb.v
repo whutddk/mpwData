@@ -171,9 +171,9 @@ module riscv_tb;
 		CSB  = 1'b1;		// Force CSB high
 		#2000;
 		RSTB = 1'b1;	    	// Release reset
-		#300000;
-		CSB = 1'b0;		// CSB can be released
 		#600000;
+		CSB = 1'b0;		// CSB can be released
+		#1200000;
 		cpu_reset = 1'b0;
 	end
 
